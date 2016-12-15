@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/awal"
+            android:icon="@drawable/aboutcar"
+            android:title="Car Mobile" />
+        <item
+            android:id="@+id/list"
+            android:icon="@drawable/history"
+            android:title="History" />
+        <item
+            android:id="@+id/spinner"
+            android:icon="@drawable/notif"
+            android:title="Notification" />
+        <item
+            android:id="@+id/popup"
+            android:icon="@drawable/agenda"
+            android:title="Booking Schedule" />
+        <item
+            android:id="@+id/web"
+            android:icon="@drawable/partner"
+            android:title="Your Partnership" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:actionProviderClass="android.widget.ShareActionProvider"
+                android:title="Share" />
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>
