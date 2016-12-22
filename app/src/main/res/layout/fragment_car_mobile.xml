@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_car_mobile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.ganjenapp.Fragment.CarMobileFragment">
+
+    <TextView
+        android:text="Car Mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView2"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"/>
+
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        app:srcCompat="@drawable/aboutcar"
+        android:id="@+id/imageView5"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:text="Ganjil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ganjil"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"/>
+
+        <RadioButton
+            android:text="Genap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/genap"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:text="Tipe Kendaraan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView5"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="BMW, Toyota, Honda, dll"
+        android:ems="10"
+        android:id="@+id/jenisMobil" />
+
+    <TextView
+        android:text="Warna Kendaraan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Hitam, Biru, Putih, dll"
+        android:ems="10"
+        android:id="@+id/warnaMobil" />
+
+    <TextView
+        android:text="Nomor Polisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="B xxxx ABC"
+        android:ems="10"
+        android:id="@+id/nopol" />
+
+    <TextView
+        android:text="Nomor STNK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Nomor yang tertera pada STNK Anda"
+        android:ems="10"
+        android:id="@+id/noSTNK" />
+
+    <TextView
+        android:text="Nomor SIM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Nomor yang tertera pada kartu SIM Anda"
+        android:ems="10"
+        android:id="@+id/noSim" />
+
+    <Button
+        android:text="simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/simpanMobil"
+        android:background="@color/colorPrimary"/>
+</LinearLayout>

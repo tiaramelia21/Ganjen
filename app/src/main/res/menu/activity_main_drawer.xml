@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/carMobile"
+            android:icon="@drawable/aboutcar"
+            android:title="Car Mobile" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/history"
+            android:title="History" />
+        <item
+            android:id="@+id/notif"
+            android:icon="@drawable/notif"
+            android:title="Notification" />
+        <item
+            android:id="@+id/schedule"
+            android:icon="@drawable/agenda"
+            android:title="Booking Schedule" />
+        <item
+            android:id="@+id/partnership"
+            android:icon="@drawable/partner"
+            android:title="Your Partnership" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@android:drawable/ic_delete"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>
