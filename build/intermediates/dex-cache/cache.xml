@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="78dea4a19f6dbe15bd707ab680ad4e1251459a0f">
+        <dex dex="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_a9020235fc10afa00087ecb866634572d9f64f74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.0_8da8f61be0182a8aa5359f6b0542d5faa78f561e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.0_aa1ccfec822c0bcb16c668b44b9d8fe96265bb73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.1.0_60346043c2412b5df17705f87dc4fb2f9e6b04c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.0_563cf3c9a1f3ed89a7bcb00c960af3bcd98dedf5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.0_61691062e88675d1b94a2ce5c0bcfeffa07a6a38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.0_6127b131c030732bf00ad2a10dd6525db5605d69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.1.0_518b6b5f7c8ded13cdb98612fb6d2ef27a0743be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.0_6163a70ff75469b58fb5d76a6845c31a66fbe976.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.0_4bad3fd42525f2ceb25377a3bd114298e868d630.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.0_79d4921b7bdc269b77e2dc908b8a5bcb53639c95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cb8ec81b19970521f3bbd17595aa9899c73c5898">
+        <dex dex="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\pre-dexed\debug\instant-run_86170a6d1f30334db76d522c06fcec3ca7d6ff8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.1.0_177aeb62a8433d58055748b7a8b773b0497c4f53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.0_08031dac2de4f619563964f24707d19f940321f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="D:\Tiara Amelia\105\GanjenApp\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.0_f9d4e657b6064ffb12565af434ffd35176336dcb.jar" />
+    </item>
+
+</items>

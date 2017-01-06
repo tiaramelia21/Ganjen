@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_transact"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.ganjenapp.TransactActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/jalan1"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/jalan2"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="cari tebengan"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cariTebeng"
+            android:background="@color/colorAccent"
+            android:layout_marginBottom="103dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/beriTebeng"
+            android:layout_alignStart="@+id/beriTebeng"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:text="beri tebengan"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/beriTebeng"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="101dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

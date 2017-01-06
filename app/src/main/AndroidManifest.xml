@@ -24,12 +24,13 @@
         <activity android:name=".TransactActivity" />
         <activity android:name=".BeriTebengActivity" />
         <activity android:name=".AboutActivity" />
-        <activity android:name=".Fragment.CarMobileFragment" />
+        <activity android:name=".CarMobileActivity" />
         <activity android:name=".BeriTebeng2Activity" />
         <activity android:name=".EditProfilActivity" />
         <activity
             android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings"></activity>
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".CariTebengActivity"></activity>
     </application>
 
 </manifest>

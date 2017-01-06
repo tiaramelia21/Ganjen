@@ -14,11 +14,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-
-import com.example.user.ganjenapp.Fragment.CarMobileFragment;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+    private Button cariTebeng, beriTebeng;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +44,25 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        cariTebeng = (Button)findViewById(R.id.cariTebeng);
+        beriTebeng = (Button)findViewById(R.id.beriTebeng);
+
+        cariTebeng.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), CariTebengActivity.class));
+            }
+        });
+
+        beriTebeng.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), BeriTebengActivity.class));
+            }
+        });
     }
+
 
     @Override
     public void onBackPressed() {
@@ -90,12 +108,12 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.carMobile) {
-            //startActivity(new Intent(getApplicationContext(), CarMobileFragment.class));
+            startActivity(new Intent(getApplicationContext(), CarMobileActivity.class));
 
-            CarMobileFragment cm = new CarMobileFragment();
-            cm.setArguments(getIntent().getExtras());
-            getSupportFragmentManager().beginTransaction().replace(R.id.container, cm, null).commit();
-            getSupportFragmentManager().popBackStack();
+            //CarMobileFragment cm = new CarMobileFragment();
+            //cm.setArguments(getIntent().getExtras());
+            //getSupportFragmentManager().beginTransaction().replace(R.id.container, cm, null).commit();
+            //getSupportFragmentManager().popBackStack();
         } else if (id == R.id.history) {
 
         } else if (id == R.id.notif) {
@@ -122,6 +140,7 @@ public class MainActivity extends AppCompatActivity
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     finish();
+                    startActivity(new Intent(getApplicationContext(), AwalActivity.class));
                 }
             });
             mas.show();

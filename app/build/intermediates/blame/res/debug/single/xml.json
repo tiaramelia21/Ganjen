@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Tiara Amelia\\105\\GanjenApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
+        "source": "D:\\Tiara Amelia\\105\\GanjenApp\\app\\src\\main\\res\\xml\\pref_headers.xml"
+    },
+    {
+        "merged": "D:\\Tiara Amelia\\105\\GanjenApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
+        "source": "D:\\Tiara Amelia\\105\\GanjenApp\\app\\src\\main\\res\\xml\\pref_general.xml"
+    },
+    {
+        "merged": "D:\\Tiara Amelia\\105\\GanjenApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
+        "source": "D:\\Tiara Amelia\\105\\GanjenApp\\app\\src\\main\\res\\xml\\pref_notification.xml"
+    },
+    {
+        "merged": "D:\\Tiara Amelia\\105\\GanjenApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
+        "source": "D:\\Tiara Amelia\\105\\GanjenApp\\app\\src\\main\\res\\xml\\pref_data_sync.xml"
+    }
+]

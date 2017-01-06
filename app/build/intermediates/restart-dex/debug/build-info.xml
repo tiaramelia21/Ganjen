@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86,armeabi-v7a"
+    api-level="17"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="617944637815828"
+    token="-6084243911551924160"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="5270" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="860" />
+    <task
+        name="verifier"
+        duration="12" />
+
+    <artifact
+        location="D:\Tiara Amelia\105\GanjenApp\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="617944637815828"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\Tiara Amelia\105\GanjenApp\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

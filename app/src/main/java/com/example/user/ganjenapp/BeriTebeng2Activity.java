@@ -2,20 +2,27 @@ package com.example.user.ganjenapp;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 
 public class BeriTebeng2Activity extends AppCompatActivity {
-
+    private Button submitBeri;
     private Spinner spinner1;
     EditText date;
     EditText time;
@@ -26,29 +33,27 @@ public class BeriTebeng2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_beri_tebeng2);
 
-//        time = (EditText) findViewById(R.id.time);
-//        time.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Calendar mcurrentTime = Calendar.getInstance();
-//                int hour = mcurrentTime.get(Calendar.HOUR_OF_DAY);
-//                int minute = mcurrentTime.get(Calendar.MINUTE);
-//                TimePickerDialog mTimePicker;
-//                mTimePicker = new TimePickerDialog(BeriTebeng2Activity.this, new TimePickerDialog.OnTimeSetListener() {
-//                    @Override
-//                    public void onTimeSet(TimePicker timePicker, int selectedHour, int selectedMinute) {
-//                        time.setText(selectedHour + ":" + selectedMinute);
-//                    }
-//                }, hour, minute, true);//24 jam
-//                mTimePicker.setTitle("Select Time");
-//                mTimePicker.show();
-//
-//            }
-//        });
-
 
         spinner1 = (Spinner) findViewById(R.id.spinner);
         spinner1.setOnItemSelectedListener(new ItemSelectedListener());
+
+        submitBeri = (Button)findViewById(R.id.submitBeri);
+
+        submitBeri.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                android.app.AlertDialog.Builder mas = new android.app.AlertDialog.Builder(BeriTebeng2Activity.this);
+                mas.setMessage("Data Anda Sudah Disubmit. Silahkan Tunggu Notifikasi Jika Ada Yang Ingin Menebeng");
+                mas.setNeutralButton("Close", new DialogInterface.OnClickListener(){
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                    }
+                });
+                mas.show();
+            }
+        });
+
     }
 
     public class ItemSelectedListener implements AdapterView.OnItemSelectedListener {
@@ -66,7 +71,7 @@ public class BeriTebeng2Activity extends AppCompatActivity {
                 // Todo when item is selected by the user
             }
 
-            date = (EditText)findViewById(R.id.editText3);
+            date = (EditText)findViewById(R.id.date);
             // perform click event on edit text
             date.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -90,6 +95,25 @@ public class BeriTebeng2Activity extends AppCompatActivity {
                 }
             });
 
+            time = (EditText)findViewById(R.id.time);
+            time.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Calendar mcurrentTime = Calendar.getInstance();
+                    int hour = mcurrentTime.get(Calendar.HOUR_OF_DAY);
+                    int minute = mcurrentTime.get(Calendar.MINUTE);
+                    TimePickerDialog mTimePicker;
+                    mTimePicker = new TimePickerDialog(BeriTebeng2Activity.this, new TimePickerDialog.OnTimeSetListener() {
+                        @Override
+                        public void onTimeSet(TimePicker timePicker, int selectedHour, int selectedMinute) {
+                            time.setText( selectedHour + ":" + selectedMinute);
+                        }
+                    }, hour, minute, true);//Yes 24 hour time
+                    mTimePicker.setTitle("Select Time");
+                    mTimePicker.show();
+                }
+            });
+
         }
 
         @Override
@@ -98,5 +122,6 @@ public class BeriTebeng2Activity extends AppCompatActivity {
         }
 
     }
+
 
 }
