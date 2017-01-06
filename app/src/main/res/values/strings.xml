@@ -1,11 +1,16 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">GanjenApp</string>
     <string name="title_activity_main">GanjenApp</string>
+=======
+    <string name="app_name">NavigationDrawer</string>
+>>>>>>> 23d88bbbef08ce99247d9be78fdec24a9e034b41
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+<<<<<<< HEAD
     <string name="title_activity_settings">Settings</string>
 
     <!-- Strings related to Settings -->
@@ -86,4 +91,9 @@
         <item>3</item>
         <item>4</item>
     </string-array>
+=======
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+>>>>>>> 23d88bbbef08ce99247d9be78fdec24a9e034b41
 </resources>

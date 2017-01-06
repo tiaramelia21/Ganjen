@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+<<<<<<< HEAD
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
     defaultConfig {
@@ -15,6 +16,22 @@ android {
     buildTypes {
         release {
             minifyEnabled false
+=======
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "id.co.jagizael.navigationdrawer"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        multiDexEnabled true
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+>>>>>>> 23d88bbbef08ce99247d9be78fdec24a9e034b41
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -22,6 +39,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+<<<<<<< HEAD
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
@@ -32,3 +50,16 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:25.1.0'
     testCompile 'junit:junit:4.12'
 }
+=======
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:design:23.2.1'
+    compile 'com.android.support:support-v4:23.2.1'
+    compile 'com.firebaseui:firebase-ui-database:1.0.0'
+    compile 'com.google.firebase:firebase-auth:10.0.1'
+    compile 'com.google.firebase:firebase-database:10.0.1'
+    compile 'com.android.support:multidex:1.0.0'
+}
+
+apply plugin: 'com.google.gms.google-services'
+>>>>>>> 23d88bbbef08ce99247d9be78fdec24a9e034b41

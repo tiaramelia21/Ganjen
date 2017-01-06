@@ -3,6 +3,7 @@
 
     <group android:checkableBehavior="single">
         <item
+<<<<<<< HEAD
             android:id="@+id/carMobile"
             android:icon="@drawable/aboutcar"
             android:title="Car Mobile" />
@@ -20,6 +21,25 @@
             android:title="Booking Schedule" />
         <item
             android:id="@+id/partnership"
+=======
+            android:id="@+id/awal"
+            android:icon="@drawable/aboutcar"
+            android:title="Car Mobile" />
+        <item
+            android:id="@+id/list"
+            android:icon="@drawable/history"
+            android:title="History" />
+        <item
+            android:id="@+id/spinner"
+            android:icon="@drawable/notif"
+            android:title="Notification" />
+        <item
+            android:id="@+id/popup"
+            android:icon="@drawable/agenda"
+            android:title="Booking Schedule" />
+        <item
+            android:id="@+id/web"
+>>>>>>> 23d88bbbef08ce99247d9be78fdec24a9e034b41
             android:icon="@drawable/partner"
             android:title="Your Partnership" />
     </group>
@@ -27,12 +47,22 @@
     <item android:title="Communicate">
         <menu>
             <item
+<<<<<<< HEAD
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
                 android:title="Share" />
             <item
                 android:id="@+id/logout"
                 android:icon="@android:drawable/ic_delete"
+=======
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:actionProviderClass="android.widget.ShareActionProvider"
+                android:title="Share" />
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_menu_send"
+>>>>>>> 23d88bbbef08ce99247d9be78fdec24a9e034b41
                 android:title="Log Out" />
         </menu>
     </item>

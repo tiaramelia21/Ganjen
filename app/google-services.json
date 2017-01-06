@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "732910442196",
+    "firebase_url": "https://ganjen-501d1.firebaseio.com",
+    "project_id": "ganjen-501d1",
+    "storage_bucket": "ganjen-501d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732910442196:android:109f03eeb6bc28e9",
+        "android_client_info": {
+          "package_name": "id.co.jagizael.navigationdrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732910442196-84d8s52t07kl8jp5fjokkq0msrik38so.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBivDggzwVK5EjEL6JLNOyu3oClj4rU0ss"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

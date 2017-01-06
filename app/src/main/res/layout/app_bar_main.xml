@@ -5,11 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+<<<<<<< HEAD
     tools:context="com.example.user.ganjenapp.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
     <include layout="@layout/activity_transact"
         android:id="@+id/include" />
+=======
+    tools:context="id.co.jagizael.navigationdrawer.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/peta"
+        android:id="@+id/imageView2" />
+>>>>>>> 23d88bbbef08ce99247d9be78fdec24a9e034b41
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -25,14 +36,22 @@
 
     </android.support.design.widget.AppBarLayout>
 
+<<<<<<< HEAD
 
 
     <!--<android.support.design.widget.FloatingActionButton
+=======
+    <include layout="@layout/content_main"
+        android:id="@+id/include" />
+
+    <android.support.design.widget.FloatingActionButton
+>>>>>>> 23d88bbbef08ce99247d9be78fdec24a9e034b41
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
+<<<<<<< HEAD
         app:srcCompat="@android:drawable/ic_input_add" />-->
 
     <!--<ImageView
@@ -40,5 +59,9 @@
         android:layout_height="match_parent"
         app:srcCompat="@drawable/ganjilgenap"
         android:id="@+id/imageView2" />-->
+=======
+        app:backgroundTint="@color/colorAccent"
+        android:src="@drawable/ic_add_black_24dp" />
+>>>>>>> 23d88bbbef08ce99247d9be78fdec24a9e034b41
 
 </android.support.design.widget.CoordinatorLayout>
